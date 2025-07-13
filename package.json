@@ -1,0 +1,24 @@
+{
+  "name": "tender_be",
+  "version": "1.0.0",
+  "description": "Backend for Tender application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshagelli007/Tender_BE.git"
+  },
+  "author": "harsha gelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshagelli007/Tender_BE/issues"
+  },
+  "homepage": "https://github.com/Harshagelli007/Tender_BE#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
