@@ -33,6 +33,20 @@ const UserShema = new mongoose.Schema({
     },
     password:{
         type:String
+    },
+    photoUrl:{
+        type:String,
+    },
+    age:{
+        type:Number,
+        min:18,
+        max:50
+    },
+    discription:{
+        type:String
+    },
+    gender:{
+        type:String
     }
 });
 
